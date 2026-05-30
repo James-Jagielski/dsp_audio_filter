@@ -1,0 +1,9 @@
+# Main project libraries
+-y $(HDL_ROOT)
+
+# Testbench libraries
+-y $(TESTBENCH_ROOT)
++incdir+$(TESTBENCH_ROOT)
+
+# Testbench
+$(TESTBENCH_ROOT)/test_ideal_multiplier.sv

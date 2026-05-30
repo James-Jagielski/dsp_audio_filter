@@ -1,0 +1,12 @@
+# Main project libraries
+-y $(HDL_ROOT)
+
+# Testbench libraries
+-y $(TESTBENCH_ROOT)
++incdir+$(TESTBENCH_ROOT)
+
+# Multiplier driver
+-l $(TESTBENCH_ROOT)/../ideal_multiplier/tb_driver_multiply.sv
+
+# Testbench
+$(TESTBENCH_ROOT)/test_booth_multiplier.sv

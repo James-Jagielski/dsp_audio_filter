@@ -1,0 +1,76 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Feb 20 04:02:03 2024
+[*]
+[dumpfile] "/Documents/Documents/Programs/cafe2-sp24/teams/Team25/build-hdl/convolution.fst"
+[dumpfile_mtime] "Tue Feb 20 03:53:41 2024"
+[dumpfile_size] 8471
+[savefile] "/Documents/Documents/Programs/cafe2-sp24/teams/Team25/wave-confs/convolution.gtkw"
+[timestart] 141100
+[size] 1896 985
+[pos] -27 -24
+*-14.400000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_convolution.
+[treeopen] test_convolution.TB_DRIVER.
+[sst_width] 297
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@200
+-Driver
+@420
+test_convolution.TB_DRIVER.driver_state
+@200
+-Inputs
+@28
+test_convolution.DUT.clk
+test_convolution.DUT.rst
+test_convolution.DUT.conv_ready
+@22
+test_convolution.DUT.sample_a[15:0]
+test_convolution.DUT.sample_b[15:0]
+@200
+-Outputs
+@22
+test_convolution.DUT.conv_out[37:0]
+@28
+test_convolution.DUT.conv_valid
+@22
+test_convolution.DUT.sample_sel[5:0]
+@200
+-State
+@28
+test_convolution.DUT.state[1:0]
+@22
+test_convolution.DUT.valid_counter[5:0]
+@200
+-Next State
+@22
+test_convolution.DUT.next_sample_sel[5:0]
+@28
+test_convolution.DUT.next_state[1:0]
+@22
+test_convolution.DUT.next_valid_counter[5:0]
+@200
+-FSM Comb Outputs
+@28
+test_convolution.DUT.accum_ena
+test_convolution.DUT.accum_rst
+test_convolution.DUT.mult_ena
+test_convolution.DUT.mult_ready
+test_convolution.DUT.mult_rst
+@200
+-Multiplier
+@29
+test_convolution.DUT.mult_valid
+@22
+test_convolution.DUT.product[31:0]
+@200
+-Accumulator
+@28
+test_convolution.DUT.accum[37:0]
+@22
+test_convolution.DUT.sum[37:0]
+test_convolution.DUT.product_ext[37:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,48 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Wed Feb 21 23:12:19 2024
+[*]
+[dumpfile] "/home/drew/Documents/git/comparchII/cafe2-sp24/teams/Team25/build-hdl/i2s_driver.fst"
+[dumpfile_mtime] "Wed Feb 21 22:02:01 2024"
+[dumpfile_size] 2004
+[savefile] "/home/drew/Documents/git/comparchII/cafe2-sp24/teams/Team25/wave-confs/i2s-driver.gtkw"
+[timestart] 0
+[size] 1920 962
+[pos] -51 -51
+*-21.600000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_i2s_driver.
+[sst_width] 297
+[signals_width] 326
+[sst_expanded] 1
+[sst_vpaned_height] 284
+@200
+-Receive
+@28
+test_i2s_driver.DUT.rst
+test_i2s_driver.DUT.m_clk
+test_i2s_driver.DUT.sda_rx
+test_i2s_driver.DUT.lr_clk
+test_i2s_driver.DUT.offset_lr_clk
+test_i2s_driver.DUT.lsamp_rx[15:0]
+test_i2s_driver.DUT.rsamp_rx[15:0]
+@200
+-Transmit
+@28
+test_i2s_driver.DUT.s_clk
+test_i2s_driver.DUT.lr_clk
+test_i2s_driver.DUT.sda_tx
+test_i2s_driver.DUT.lsamp_tx[15:0]
+test_i2s_driver.DUT.rsamp_tx[15:0]
+@200
+-Internal
+@25
+test_i2s_driver.DUT.count[7:0]
+@24
+test_i2s_driver.DUT.offset_count[7:0]
+@28
+test_i2s_driver.DUT.m_clk
+test_i2s_driver.DUT.s_clk
+test_i2s_driver.DUT.neg_edge
+test_i2s_driver.DUT.pos_edge
+[pattern_trace] 1
+[pattern_trace] 0

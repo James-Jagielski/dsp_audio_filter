@@ -1,0 +1,58 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Wed Feb 14 16:42:39 2024
+[*]
+[dumpfile] "/Documents/Documents/Programs/cafe2-sp24/teams/Team25/build-simulations/booth_multiplier.fst"
+[dumpfile_mtime] "Wed Feb 14 16:33:53 2024"
+[dumpfile_size] 22879
+[savefile] "/Documents/Documents/Programs/cafe2-sp24/teams/Team25/wave_confs/booth_multiplier.gtkw"
+[timestart] 1117100
+[size] 1896 985
+[pos] -27 -24
+*-14.400001 1199400 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_booth_multiplier.
+[treeopen] test_booth_multiplier.MULT_DRIVER.
+[sst_width] 297
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 291
+@420
+test_booth_multiplier.MULT_DRIVER.driver_state
+@200
+-input signals
+@28
+test_booth_multiplier.DUT.clk
+test_booth_multiplier.DUT.rst
+test_booth_multiplier.DUT.ready
+@200
+-output signals
+@28
+test_booth_multiplier.DUT.valid
+@200
+-inputs
+@28
+test_booth_multiplier.DUT.a[4:0]
+test_booth_multiplier.DUT.b[4:0]
+@200
+-outputs
+@28
+test_booth_multiplier.MULT_DRIVER.expected_product[9:0]
+test_booth_multiplier.DUT.product[9:0]
+@200
+-state
+@22
+test_booth_multiplier.DUT.count[3:0]
+test_booth_multiplier.DUT.multiplicand[4:0]
+test_booth_multiplier.DUT.accumulator_in[4:0]
+test_booth_multiplier.DUT.multiplier_in[4:0]
+@28
+test_booth_multiplier.DUT.prev_lsb_in
+@200
+-combinational
+@28
+test_booth_multiplier.DUT.accumulator_out[4:0]
+test_booth_multiplier.DUT.multiplier_out[4:0]
+test_booth_multiplier.DUT.prev_lsb_out
+test_booth_multiplier.DUT.multiplicand_out[4:0]
+[pattern_trace] 1
+[pattern_trace] 0

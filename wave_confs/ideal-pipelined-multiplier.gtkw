@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Thu Feb 15 02:52:04 2024
+[*]
+[dumpfile] "/Documents/Documents/Programs/cafe2-sp24/teams/Team25/build-simulations/ideal_pipelined_multiplier.fst"
+[dumpfile_mtime] "Thu Feb 15 02:50:04 2024"
+[dumpfile_size] 7462
+[savefile] "/Documents/Documents/Programs/cafe2-sp24/teams/Team25/wave_confs/ideal-pipelined-multiplier.gtkw"
+[timestart] 0
+[size] 1896 989
+[pos] -24 -16
+*-13.200000 1091500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_ideal_pipelined_multiplier.
+[sst_width] 249
+[signals_width] 182
+[sst_expanded] 1
+[sst_vpaned_height] 297
+@200
+-Inputs
+@28
+test_ideal_pipelined_multiplier.DUT.clk
+test_ideal_pipelined_multiplier.DUT.ena
+test_ideal_pipelined_multiplier.DUT.rst
+test_ideal_pipelined_multiplier.DUT.ready
+@22
+test_ideal_pipelined_multiplier.DUT.a[4:0]
+test_ideal_pipelined_multiplier.DUT.b[4:0]
+@200
+-Outputs
+@28
+test_ideal_pipelined_multiplier.DUT.frame[2:0]
+@22
+test_ideal_pipelined_multiplier.DUT.product[9:0]
+@28
+test_ideal_pipelined_multiplier.DUT.valid
+@200
+-Other
+@22
+test_ideal_pipelined_multiplier.DUT.mult_a[4:0]
+test_ideal_pipelined_multiplier.DUT.mult_b[4:0]
+[pattern_trace] 1
+[pattern_trace] 0

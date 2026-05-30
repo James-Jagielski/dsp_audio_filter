@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Sun Feb 11 02:07:27 2024
+[*]
+[dumpfile] "/Documents/Documents/Programs/cafe2-sp24/teams/Team25/build-simulations/ideal_multiplier.fst"
+[dumpfile_mtime] "Sun Feb 11 02:03:12 2024"
+[dumpfile_size] 3070
+[savefile] "/Documents/Documents/Programs/cafe2-sp24/teams/Team25/wave_confs/ideal-multiplier.gtkw"
+[timestart] 0
+[size] 1896 989
+[pos] -24 -16
+*-16.800001 127200 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_ideal_multiplier.
+[sst_width] 249
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 297
+@200
+-Test Mode
+@420
+test_ideal_multiplier.MULT_DRIVER.driver_state
+@200
+-Inputs
+@28
+test_ideal_multiplier.DUT.clk
+test_ideal_multiplier.DUT.rst
+test_ideal_multiplier.DUT.ready
+@22
+test_ideal_multiplier.DUT.a[4:0]
+test_ideal_multiplier.DUT.b[4:0]
+@200
+-Outputs
+@28
+test_ideal_multiplier.DUT.valid
+@22
+test_ideal_multiplier.DUT.product[9:0]
+@200
+-Internal
+[pattern_trace] 1
+[pattern_trace] 0

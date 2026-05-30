@@ -1,0 +1,56 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Thu Feb 15 05:10:40 2024
+[*]
+[dumpfile] "/Documents/Documents/Programs/cafe2-sp24/teams/Team25/build-simulations/booth_pipelined_multiplier.fst"
+[dumpfile_mtime] "Thu Feb 15 05:08:55 2024"
+[dumpfile_size] 19564
+[savefile] "/Documents/Documents/Programs/cafe2-sp24/teams/Team25/wave_confs/booth-pipelined-multiplier.gtkw"
+[timestart] 0
+[size] 1896 989
+[pos] -24 -16
+*-16.199999 63600 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_ideal_pipelined_multiplier.
+[treeopen] test_ideal_pipelined_multiplier.DUT.pipeline[0].
+[sst_width] 249
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 297
+@420
+test_ideal_pipelined_multiplier.MULT_DRIVER.driver_state
+@200
+-Inputs
+@28
+test_ideal_pipelined_multiplier.DUT.clk
+test_ideal_pipelined_multiplier.DUT.ena
+test_ideal_pipelined_multiplier.DUT.rst
+@29
+[color] 2
+test_ideal_pipelined_multiplier.DUT.ready
+@420
+[color] 7
+test_ideal_pipelined_multiplier.DUT.a[4:0]
+[color] 7
+test_ideal_pipelined_multiplier.DUT.b[4:0]
+@200
+-Outputs
+@420
+[color] 7
+test_ideal_pipelined_multiplier.DUT.product[9:0]
+@28
+[color] 2
+test_ideal_pipelined_multiplier.DUT.valid
+test_ideal_pipelined_multiplier.DUT.frame[2:0]
+@200
+-Other
+@22
+test_ideal_pipelined_multiplier.DUT.accumulator_ins[24:0]
+test_ideal_pipelined_multiplier.DUT.accumulator_outs[24:0]
+test_ideal_pipelined_multiplier.DUT.multiplicand_ins[24:0]
+test_ideal_pipelined_multiplier.DUT.multiplicand_outs[24:0]
+test_ideal_pipelined_multiplier.DUT.multiplier_ins[24:0]
+test_ideal_pipelined_multiplier.DUT.multiplier_outs[24:0]
+test_ideal_pipelined_multiplier.DUT.prev_lsb_ins[4:0]
+test_ideal_pipelined_multiplier.DUT.prev_lsb_outs[4:0]
+[pattern_trace] 1
+[pattern_trace] 0
