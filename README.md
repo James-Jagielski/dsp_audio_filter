@@ -1,6 +1,7 @@
 # FPGA FIR Filter
 
 audio filter part of the advanced computer architecture course at Olin
+![screenshot](./images/dsp.png)
 
 # Setup
 
