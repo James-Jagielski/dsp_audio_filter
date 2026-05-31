@@ -1,7 +1,10 @@
 # FPGA FIR Filter
 
 audio filter part of the advanced computer architecture course at Olin
+## Signal Path Main Block Diagram
 ![screenshot](./images/dspmain2.png)
+## Convolve Engine Block Diagram
+![screenshot](./images/convolve.png)
 
 # Setup
 
